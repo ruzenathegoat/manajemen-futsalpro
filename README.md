@@ -51,8 +51,7 @@ Modern, SaaS-style futsal field reservation system for Android, iOS, and Web (Ch
 ## Firestore Structure (High-Level)
 ```
 users/{uid}
-  name, email, role, photoUrl, themePreference, securityQuestion,
-  securityAnswer, createdAt, lastLogin
+  name, email, role, photoUrl, themePreference, createdAt, lastLogin
 
 fields/{fieldId}
   name, description, basePrice, imageUrl, isActive, facilities, createdAt, updatedAt
