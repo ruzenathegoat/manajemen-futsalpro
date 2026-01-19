@@ -63,9 +63,6 @@ bookings/{bookingId}
 
 ## Auth Flow Notes
 - Admin accounts are created manually in Firestore.
-- Registration in-app always creates `role = "user"`.
-- Forgot password uses manual security verification after login.
-  Users must log in again to verify the security question and update password.
 ```
 
 ## Firestore Rules
